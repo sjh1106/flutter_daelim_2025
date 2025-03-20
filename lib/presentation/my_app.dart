@@ -1,11 +1,8 @@
 import 'package:daelim_2025/presentation/home/home_screen.dart';
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget { //conponent
+class MyApp extends StatelessWidget {
+  //conponent
   const MyApp({super.key});
 
   // This widget is the root of your application.
@@ -34,5 +31,5 @@ class MyApp extends StatelessWidget { //conponent
       home: const HomeScreen(),
     );
   }
-}gd
-
+}
+gd
