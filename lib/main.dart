@@ -1,11 +1,13 @@
-import 'package:daelim_2025/presentation/home/home_screen.dart';
+import 'package:daelim_2025/presentation/home/example_screen.dart';
+import 'package:daelim_2025/presentation/start/start_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget { //conponent
+class MyApp extends StatelessWidget {
+  //conponent
   const MyApp({super.key});
 
   // This widget is the root of your application.
@@ -31,8 +33,7 @@ class MyApp extends StatelessWidget { //conponent
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const HomeScreen(),
+      home: const StartScreen(),
     );
   }
-}gd
-
+}
